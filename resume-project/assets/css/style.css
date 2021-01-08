@@ -370,7 +370,7 @@ footer {
     max-width: 70%;
 }
 
-button [type="submit"] {
+button[type="submit"] {
     margin-top: 15px;
     margin-bottom: 20px;
     color: #fafafa;
