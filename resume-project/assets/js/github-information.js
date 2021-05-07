@@ -75,7 +75,7 @@ function fetchGitHubInformation(event) {
             });
 }
 
-$(document).ready(fetchGitHubInformation());
+$(document).ready(fetchGitHubInformation);
 
 
 
