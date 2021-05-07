@@ -25,11 +25,11 @@ function repoInformationHTML(repos) {
         return `<div class="clearfix repo-list">No repos!</div>`;
     }
 
-    var listItemsHTML = repos.map(function(repo){
+    var listItemsHTML = repos.map(function(repo) {
         return `<li>
                     <a href="${repo.html_url}" target="_blank">${repo.name}</a>
-                </li>`
-    })
+                </li>`;
+    });
 
     return `<div class="clearfix repo-list">
                 <p>
